@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset='UTF-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HCMUT-MAP</title>
+  <link rel="stylesheet" href="/main.css">
+  <script type="text/javascript" src="/dijkstra.js"></script>
+  <script type="text/javascript" src="/A2.js"></script>
+  <script type="text/javascript" src="/A3.js"></script>
+  <script type="text/javascript" src="/A4.js"></script>
+  <script type="text/javascript" src="/A5.js"></script>
+  <script type="text/javascript" src="/B1.js"></script>
+  <script type="text/javascript" src="/B2.js"></script>
+  <script type="text/javascript" src="/B3.js"></script>
+  <script type="text/javascript" src="/B4.js"></script>
+  <script type="text/javascript" src="/B6.js"></script>
+  <script type="text/javascript" src="/B8.js"></script>
+  <script type="text/javascript" src="/C4.js"></script>
+  <script type="text/javascript" src="/C5.js"></script>
+  <script type="text/javascript" src="/C6.js"></script>
+  <script type="text/javascript" src="/inout.js"></script>
+  <script type="text/javascript" src="/distancecal.js"></script>
+</head>
+<body>
+  <div class="panel">
+    <!-- <form>
+      <strong>Start:</strong>
+      <input class="start" id="start" type="text">
+    </form> -->
+    <label>
+      <b>Destination</b>
+      <input class="end" id="end" type="text">
+    </label>
+    <!-- <b>Weather: </b>
+    <select class="weather" id="weather" onchange="weather()"> //class cho css, id cho js
+      <option class="option" value="Sunny"> Sunny </option>
+      <option class="option" value="Raining"> Raining </option>
+    </select> -->
+    <button type="submit" onclick="visualizePath()" class="btn"> Start
+    </button> 
+  </div>
+  <button class="getLocationBtn" id="getLocationBtn" type="button">Get My Location</button>
+  <div class="test" id="coordinates">Latitude: N/A, Longitude: N/A</div>
+  <div class="map" id="map-container">
+  <img class="map" alt="sa ban truong" src="/map.png"/>
+  <svg class="map" id="map-svg"></svg>
+  </div>
+  <script src="script.js"></script>
+  <script src="location.js"></script>
+</body>
+</html>

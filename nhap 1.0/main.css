@@ -1,0 +1,92 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body 
+{
+  height: 100vh;
+  width: auto;
+  background: linear-gradient(to right, #030391, #1488D8);
+}
+.map
+{
+  position:absolute;
+  width: 90%;
+  height: 96%;
+  right: 1%;
+  border-radius: 10px;
+  top: 2%;
+  bottom: 2%;
+}
+.panel {
+  position: absolute;
+  top: 4%;
+  left: 1%;
+  width: 14%;
+  height: auto;
+  background-color: rgb(67, 178, 197);
+  text-align: center;
+  border-radius: 20px;
+  /* padding: 5px 5px;
+  font-family: cursive;
+  line-height: 40px;
+  padding-left: 5px; */
+ 
+}
+/* .start
+{
+  border-radius: 10px;
+  font-family: cursive;
+  font-weight: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+} */
+.end
+{
+  width: 90%;
+  border-radius: 10px;
+  font-family: cursive;
+  /* font-weight: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px; */
+}
+/* .weather
+{
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: cursive;
+  font-weight: 15px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+} */
+.btn {
+  color: rgb(72, 107, 189);
+  width: 30%;
+  /* padding: 5px 5px;
+  text-align: center;
+  font-size: 20px; */
+  cursor: pointer;
+  border-radius: 10px;
+  /* font-family: cursive; */
+  /* display: grid; */
+}
+.btn:hover, .start:hover, .end:hover, .weather:hover
+{
+  background-color: beige;
+  color: black ;
+}
+
+
+  
+.getLocationBtn {
+  position: absolute;
+  bottom: 10% ;
+}
+.test {
+  position: absolute;
+  bottom: 0% ;
+}
+
+
